@@ -2880,8 +2880,24 @@
                </div>
                <div type="examples">
                   <egXML xmlns="http://www.tei-c.org/ns/Examples">
-                     <!-- Contains examples of XML from the schema.  
-                          Tags in egXML must be prefixed with the proper namespace (e.g. <eag:abstract>). -->
+                      <eag:repository>
+                        <eag:identity>
+                           [...]
+                        </eag:identity>
+                        <eag:description>
+                           <eag:services>
+                              <eag:exhibitions question="yes" languageOfElement="ger">
+                                 <eag:descriptiveNote >In
+                            unmittelbarer Nachbarschaft zum Dienst- bzw. Archivgebäude befindet sich
+                            das 1760 als Wacht- und Zollhaus erbaute Schorndorfer Torhaus. Hier
+                            präsentiert das Bundesarchiv seit September 2004 eine ständige
+                            Ausstellung über die juristische Aufarbeitung von
+                                  <eag: href="http://www.bundesarchiv.de/DE/Content/Artikel/Entdecken/ludwigsburg-ausstellung-torhaus.html"> Ausstellung im Torhaus in Ludwigsburg
+                                 </eag:href>
+                                 </eag:exhibitions>
+                           </eag:services>
+                        </eag:description>
+                     </eag:repository>
                   </egXML>
                </div>
             </div>
